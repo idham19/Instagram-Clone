@@ -1,0 +1,82 @@
+* {
+  color: white;
+  background-color: black;
+}
+i {
+  cursor: pointer;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.nav-list {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  text-align: center;
+  padding-right: 1rem;
+}
+#plus {
+  font-weight: bold;
+  border: solid 1px;
+  padding: 10px;
+  border-radius: 30%;
+}
+#heart {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.image {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  max-width: 40%; /* Ensure the image doesn't exceed the body's width */
+  height: 30%;
+  margin-bottom: 1rem;
+}
+.logo img {
+  padding: 1rem;
+  height: 100px; /* Adjust the height to maintain aspect ratio */
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+hr {
+  border: 1px solid #ccc; /* Adjust border style, color, and width */
+  margin: 10px 0; /* Adjust margins */
+}
+.text-container {
+  display: flex;
+  align-items: center;
+}
+
+.log-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.three-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+}
+.three-logo i {
+  padding-left: 3rem;
+}
+footer {
+  margin: 7rem;
+}
+.text h3,
+h5 {
+  font-weight: normal;
+  margin: 2px;
+}

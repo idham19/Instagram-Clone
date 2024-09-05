@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 *{
   text-decoration: none;
   list-style: none;
@@ -98,6 +102,7 @@ hr {
     background-color: #f2f2f2;
     text-align: center;
     font-size: 1rem; 
+    cursor: pointer;
   }
   .events{
     display: flex;
@@ -117,4 +122,40 @@ hr {
     background-color: rgb(199, 50, 177);
     color: white;
     border:double white ;
+  }
+  h1{
+    font-weight: normal;
+  }
+  .statistic{
+    display: flex;
+    justify-content: space-around;
+  }
+  h3{
+    margin: 0;
+    padding: 0;
+  }
+  .statistic p{
+    margin: 0;
+    padding: 0;
+  }
+  .icons{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+  .images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 5rem; */
+    /* margin-bottom: 3rem;
+    gap: 2rem; */
+  }
+  .images img{
+    width: 500px;
+    height:400px;
+    padding: 5px;
+    cursor: pointer;
   }

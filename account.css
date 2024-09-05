@@ -1,0 +1,120 @@
+*{
+  text-decoration: none;
+  list-style: none;
+}
+
+nav{
+    
+}
+
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.nav-list{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    text-align: center;
+    padding-right:1rem ;
+}
+.login-link{
+  background-color: rgb(97, 151, 238);
+  border-radius: 10%;
+  /* height: 50px; */
+  text-align: center;
+  padding: 1rem;
+}
+.login-link a{
+  color: white;
+  padding: 2rem; 
+}
+.signup-link{
+  border-radius: 10%;
+  /* height: 50px; */
+  text-align: center;
+  padding: 1rem;
+}
+.signup-link a{
+  color:rgb(97, 151, 238) ;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.follow-message-btn{
+  margin: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.multiverse-logo{
+  height: 100px;
+  width: 100px;
+  background-color: rgb(236, 235, 235);
+  padding: 1.5rem;
+  border-radius: 50%;
+}
+ .join-section{
+  text-align: center;
+ }
+ .buttons{
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+ }
+
+hr {
+    border: 1px solid #ccc; /* Adjust border style, color, and width */
+    margin: 10px 0; /* Adjust margins */
+  }
+  button{
+    padding: 1rem;
+    width: 270px;
+    height: 60px;
+    font-weight: bold;
+    border-radius: 10%;
+    border: none;
+    background-color: rgb(236, 235, 235);
+    cursor: pointer;
+  }
+  .text-p{
+   text-align: left;
+  }
+  .text-p a{
+    font-weight: bold;
+  }
+  .title{
+      font-family: "Sevillana", cursive;
+      font-style: normal;
+  }
+  .moment{
+    display: inline-block;
+    padding: 85px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #f2f2f2;
+    text-align: center;
+    font-size: 1rem; 
+  }
+  .events{
+    display: flex;
+    justify-content: space-around;
+  }
+  #life{
+    background-color: rgb(132, 231, 132);
+    color: white;
+    border:double white ;
+  }
+  #faq{
+    background-color: rgb(160, 180, 32);
+    color: white;
+    border:double white ;
+  }
+  #event{
+    background-color: rgb(199, 50, 177);
+    color: white;
+    border:double white ;
+  }
